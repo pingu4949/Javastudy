@@ -11,7 +11,7 @@ import java.io.PrintStream;
 
 public class Ex02 {
 	public static void main(String[] args) {
-		String pathname = "D://Pinggu//util//test04.txt";
+		String pathname = "S://Pinggu//util//test04.txt";
 		File file = new File(pathname); 
 		
 		FileOutputStream fos = null;
@@ -19,7 +19,7 @@ public class Ex02 {
 		
 		try {
 			fos = new FileOutputStream(file); //파일생성
-			ps = new PrintStream(fos);        // 파일스트림
+			ps = new PrintStream(fos);        
 			// System.out.println(기본자료형 + String) 와 같음 
 			ps.println(0);// 파일출력
 			ps.println(false);

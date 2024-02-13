@@ -15,7 +15,7 @@ import java.io.IOException;
 // DataIntStream 을 사용해야 읽을 수 있다.
 public class Ex01 {
 	public static void main(String[] args) {
-		String pathname = "D://Pinggu//util//test.txt";
+		String pathname = "S://Pinggu//util//test.txt";
 		File file = new File(pathname); 
 		//텍스트에 쓰기 위한 것
 		FileOutputStream fos = null;

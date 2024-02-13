@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class Ex09_Input {
 	public static void main(String[] args) {
-		String pathname = "D://Pinggu//util/object01.txt";
+		String pathname = "S://Pinggu//util/object01.txt";
 		File file = new File(pathname);
 		FileInputStream fis = null; 
 		BufferedInputStream bis = null;

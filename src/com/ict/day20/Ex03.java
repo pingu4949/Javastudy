@@ -8,7 +8,7 @@ import java.io.IOException;
 // FileWriter -> 2byte 처리, write(int c), write(char[] c), write(String str)
 public class Ex03 {
 	public static void main(String[] args) {
-		String pathname = "D://Pinggu//util//test05.txt";
+		String pathname = "S://Pinggu//util//test05.txt";
 		File file = new File(pathname); 
 		FileWriter fw = null;
 		

@@ -11,13 +11,13 @@ import java.io.PrintWriter;
 // PrintWriter은 모든 데이터 출력할 수 있다. OutStream(바이트출력), Writer(문자출력) 둘 다 가능
 public class Ex07 {
 	public static void main(String[] args) {
-		String pathname = "D://Pinggu//util//test07.txt";
+		String pathname = "S://Pinggu//util//test07.txt";
 		File file = new File(pathname);
 		FileWriter fw = null;
 		PrintWriter pw = null;
 		
 		// 바이트 스트림도 가능
-		String pathname2 = "D://Pinggu//util//test08.txt";
+		String pathname2 = "S://Pinggu//util//test08.txt";
 		File file2 = new File(pathname2);
 		FileOutputStream fos = null;
 		PrintWriter pw2 = null;

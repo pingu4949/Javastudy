@@ -9,7 +9,7 @@ import java.io.IOException;
 // BufferedReader -> readLine() : 한줄씩 읽는다. 더이상 읽을 수 없을 때 null;
 public class Ex06 {
 	public static void main(String[] args) {
-		String pathname = "D://Pinggu//util//test06.txt";
+		String pathname = "S://Pinggu//util//test06.txt";
 		File file = new File(pathname);
 		FileReader fr = null;
 		BufferedReader br = null;

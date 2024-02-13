@@ -27,7 +27,7 @@ public class Ex09_Output {
 		
 		
 		// 직렬화
-		String pathname = "D://Pinggu//util/object01.txt";
+		String pathname = "S://Pinggu//util/object01.txt";
 		File file = new File(pathname);
 		FileOutputStream fos = null;
 		BufferedOutputStream bos = null;
